@@ -1,6 +1,7 @@
 # extras
 some_texts.txt
 .env
+client_secret.json
 
 # Logs
 logs
