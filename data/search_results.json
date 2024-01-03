@@ -1,0 +1,602 @@
+[
+  {
+    "index": 1,
+    "title": "NASA",
+    "link": "https://www.nasa.gov/",
+    "snippet": "NASA.gov brings you the latest news, images and videos from America's space agency, pioneering the future in space exploration, scientific discovery and\u00a0..."
+  },
+  {
+    "index": 2,
+    "title": "NASA Jet Propulsion Laboratory (JPL) - Robotic Space Exploration",
+    "link": "https://www.jpl.nasa.gov/",
+    "snippet": "Space mission and science news, images and videos from NASA's Jet Propulsion Laboratory, the leading center for robotic exploration of the solar system."
+  },
+  {
+    "index": 3,
+    "title": "NASA TV Live - NASA",
+    "link": "https://www.nasa.gov/nasatv/",
+    "snippet": "NASA live launches, landings, and events. Watch live broadcasts from NASA Television and NASA's social media channels, and a schedule of upcoming live\u00a0..."
+  },
+  {
+    "index": 4,
+    "title": "NASA Science",
+    "link": "https://science.nasa.gov/",
+    "snippet": "NASA Science. NASA Science seeks to discover the secrets of the universe, search for life elsewhere, and protect and improve life on Earth and in space."
+  },
+  {
+    "index": 5,
+    "title": "NASA Image and Video Library",
+    "link": "https://images.nasa.gov/",
+    "snippet": "NASA Image and Video Library, serving up consolidated imagery and videos in one searchable location. Users can download content in multiple sizes and\u00a0..."
+  },
+  {
+    "index": 6,
+    "title": "Mars 2020 Perseverance Rover - NASA Mars",
+    "link": "https://mars.nasa.gov/mars2020/",
+    "snippet": "NASA's Mars 2020 Perseverance rover will look for signs of past microbial life, cache rock and soil samples, and prepare for future human exploration."
+  },
+  {
+    "index": 7,
+    "title": "NASA (@NASA) / X",
+    "link": "https://twitter.com/NASA",
+    "snippet": "There's space for everybody. \u2728 Verification: https://t.co/8nok3NP4PW."
+  },
+  {
+    "index": 8,
+    "title": "NASA Mars Exploration",
+    "link": "https://mars.nasa.gov/",
+    "snippet": "The Mars Exploration Program studies Mars as a planetary system in order to understand the formation and early evolution of Mars as a planet, the history of\u00a0..."
+  },
+  {
+    "index": 9,
+    "title": "Webb Image Release- Webb Space Telescope GSFC/NASA",
+    "link": "https://webb.nasa.gov/",
+    "snippet": "NASA's James Webb Space Telescope recently trained its sights on unusual and enigmatic Uranus, an ice giant that spins on its side. Webb captured this dynamic\u00a0..."
+  },
+  {
+    "index": 10,
+    "title": "NASA Climate Change",
+    "link": "https://climate.nasa.gov/",
+    "snippet": "Earth Now. Explore a real-time data visualization of NASA's Earth-orbiting satellites and the data they collect about climate change. ... View a current datamap\u00a0..."
+  },
+  {
+    "index": 11,
+    "title": "NASA (@nasa) \u2022 Instagram photos and videos",
+    "link": "https://www.instagram.com/nasa/?hl=en",
+    "snippet": "97M Followers, 77 Following, 4066 Posts - See Instagram photos and videos from NASA (@nasa)"
+  },
+  {
+    "index": 12,
+    "title": "NASA - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/NASA",
+    "snippet": "Established in 1958, NASA succeeded the National Advisory Committee for Aeronautics (NACA) to give the U.S. space development effort a distinctly civilian\u00a0..."
+  },
+  {
+    "index": 13,
+    "title": "NASA Worldview",
+    "link": "https://worldview.earthdata.nasa.gov/",
+    "snippet": "Interactive interface for browsing full-resolution, global, daily satellite images. Supports time-critical application areas such as wildfire management,\u00a0..."
+  },
+  {
+    "index": 14,
+    "title": "NASA SBIR & STTR Program Homepage",
+    "link": "https://sbir.nasa.gov/",
+    "snippet": "The NASA Small Business Innovation Research and Small Business Technology Transfer (SBIR/STTR) program provides more than just early-stage funding \u2013 we open\u00a0..."
+  },
+  {
+    "index": 15,
+    "title": "Spot The Station | NASA",
+    "link": "https://spotthestation.nasa.gov/",
+    "snippet": "See the International Space Station! As the third brightest object in the sky the space station is easy to see if you know when to look up."
+  },
+  {
+    "index": 16,
+    "title": "NASA Earthdata",
+    "link": "https://www.earthdata.nasa.gov/",
+    "snippet": "Earthdata is the home for full and open access to NASA's Earth science data collections, accelerating scientific advancement for societal benefit."
+  },
+  {
+    "index": 17,
+    "title": "NASA | LANCE",
+    "link": "https://firms.modaps.eosdis.nasa.gov/map/",
+    "snippet": "Global fire map and data. NASA | LANCE | Fire Information for Resource Management System provides near real-time active fire data from MODIS and VIIRS to\u00a0..."
+  },
+  {
+    "index": 18,
+    "title": "NASA Goddard Institute for Space Studies: NASA GISS",
+    "link": "https://www.giss.nasa.gov/",
+    "snippet": "Research at the NASA Goddard Institute for Space Studies (GISS) emphasizes a broad study of global change."
+  },
+  {
+    "index": 19,
+    "title": "GISS Surface Temperature Analysis (GISTEMP v4) - Data.GISS",
+    "link": "https://data.giss.nasa.gov/gistemp/",
+    "snippet": "Please credit \"NASA's Goddard Institute for Space Studies\" or, if space is limited, \"NASA GISS/GISTEMP\". Background, History and Updates. The basic GISS\u00a0..."
+  },
+  {
+    "index": 20,
+    "title": "NASA Blogs",
+    "link": "https://blogs.nasa.gov/",
+    "snippet": "People of PACE: Otto Hasekamp Helps Scientists See Light in a New Light \u00b7 Strong Solar Flare Erupts from Sun \u00b7 ISS Daily Summary Report \u2013 12/28/2023 \u00b7 ISS Daily\u00a0..."
+  },
+  {
+    "index": 21,
+    "title": "Home | NASA Space Place \u2013 NASA Science for Kids",
+    "link": "https://spaceplace.nasa.gov/",
+    "snippet": "NASA's award-winning Space Place website engages upper-elementary-aged children in space and Earth science through interactive games, hands-on activities,\u00a0..."
+  },
+  {
+    "index": 22,
+    "title": "NASA Applied Sciences: Homepage",
+    "link": "http://appliedsciences.nasa.gov/",
+    "snippet": "What We Do ... The Applied Sciences Program helps people across the world use NASA data to solve big problems right here on Earth. We provide support and funding\u00a0..."
+  },
+  {
+    "index": 23,
+    "title": "NASA Software Catalog: Home",
+    "link": "https://software.nasa.gov/",
+    "snippet": "NASA's Software Catalog offers hundreds of new software programs you can download for free to use in a wide variety of technical applications."
+  },
+  {
+    "index": 24,
+    "title": "NASA Visible Earth - Home",
+    "link": "https://visibleearth.nasa.gov/",
+    "snippet": "NASA's Visible Earth catalog of NASA images and animations of our home planet."
+  },
+  {
+    "index": 25,
+    "title": "Eyes on Asteroids - Home - NASA/JPL",
+    "link": "https://eyes.nasa.gov/apps/asteroids",
+    "snippet": "Explore the 3D world of Asteroids, Comets and NEOs. Learn about past and future missions, tracking and predicting orbits, and close approaches to Earth."
+  },
+  {
+    "index": 26,
+    "title": "Sign On | Message in a Bottle \u2013 NASA's Europa Clipper",
+    "link": "https://europa.nasa.gov/message-in-a-bottle/sign-on/",
+    "snippet": "Earth's first mission to conduct detailed reconnaissance of Jupiter's moon, Europa. NASA's Europa Clipper will determine if this ocean world has\u00a0..."
+  },
+  {
+    "index": 27,
+    "title": "NASA Open Data Portal",
+    "link": "https://data.nasa.gov/",
+    "snippet": "DATA.NASA.GOV: A catalog of publicly available NASA datasets. DATA.NASA.GOV is NASA's clearinghouse site for open-data provided to the public. Tens of thousands\u00a0..."
+  },
+  {
+    "index": 28,
+    "title": "NASA+: Home",
+    "link": "https://plus.nasa.gov/",
+    "snippet": "NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery. About NASA's Mission \u00b7 Join Us."
+  },
+  {
+    "index": 29,
+    "title": "NASA - YouTube",
+    "link": "https://www.youtube.com/@NASA",
+    "snippet": "NASA's mission is to pioneer the future in space exploration, scientific discovery, and aeronautics research.To do that, we have worked around the world\u2014and\u00a0..."
+  },
+  {
+    "index": 30,
+    "title": "NASA Federal Credit Union | Nationwide Banking, Loans and ...",
+    "link": "https://www.nasafcu.com/",
+    "snippet": "Banking services nationwide, loans, mortgages, credit cards, checking, mobile banking and more. Discover more about NASA FCU."
+  },
+  {
+    "index": 31,
+    "title": "NASA Eclipse Web Site",
+    "link": "https://eclipse.gsfc.nasa.gov/",
+    "snippet": "Aug 27, 2016 ... This is NASA's official eclipse Web site. It contains maps and tables for 5000 years of eclipses and includes information on eclipse\u00a0..."
+  },
+  {
+    "index": 32,
+    "title": "NASA Open APIs",
+    "link": "https://api.nasa.gov/",
+    "snippet": "{ NASA APIs }. Welcome to the NASA API portal. The objective of this site is to make NASA data, including imagery, eminently accessible to application\u00a0..."
+  },
+  {
+    "index": 33,
+    "title": "Earthdata Search | Earthdata Search",
+    "link": "https://search.earthdata.nasa.gov/",
+    "snippet": "Search, discover, visualize, refine, and access NASA Earth Observation data in your browser with Earthdata Search."
+  },
+  {
+    "index": 34,
+    "title": "NASA OIG",
+    "link": "https://oig.nasa.gov/",
+    "snippet": "Semiannual Report to Congress. Our Semiannual Report to Congress covering the period April 1 to September 30, 2023, features highlights of the OIG's audit and\u00a0..."
+  },
+  {
+    "index": 35,
+    "title": "NASA - National Aeronautics and Space Administration",
+    "link": "https://www.facebook.com/NASA/",
+    "snippet": "NASA - National Aeronautics and Space Administration. 25254551 likes \u00b7 87623 talking about this. Explore the universe and discover our home planet..."
+  },
+  {
+    "index": 36,
+    "title": "Space Center Houston | Science and Space Exploration Learning ...",
+    "link": "https://spacecenter.org/",
+    "snippet": "We provide the public a chance to be a part of NASA's mission. BROWSE ALL PROGRAMS\u00a0..."
+  },
+  {
+    "index": 37,
+    "title": "Photojournal: NASA's Image Access Home Page",
+    "link": "https://photojournal.jpl.nasa.gov/",
+    "snippet": "publicly released images from various Solar System exploration programs."
+  },
+  {
+    "index": 38,
+    "title": "Astronomy Picture of the Day",
+    "link": "https://apod.nasa.gov/apod/astropix.html",
+    "snippet": "5 hours ago ... No, but it can make a background moon appear wavy. The rocket, in this case, was a SpaceX Falcon Heavy that blasted off from NASA's Kennedy\u00a0..."
+  },
+  {
+    "index": 39,
+    "title": "NASA Sea Level Change Portal",
+    "link": "https://sealevel.nasa.gov/",
+    "snippet": "Tracking 30 Years of Sea Level Rise. An animation shows global sea level trends from 1993 to 2022 as observed by several satellite missions. watch\u00a0..."
+  },
+  {
+    "index": 40,
+    "title": "NASA Technical Reports Server (NTRS)",
+    "link": "https://ntrs.nasa.gov/",
+    "snippet": "Registered content in the NASA STI Repository (previously referred to as access to the NASA Technical Reports Server-Registered (NTRS-R)) includes the complete\u00a0..."
+  },
+  {
+    "index": 41,
+    "title": "NASA Technology Transfer Portal Home",
+    "link": "https://technology.nasa.gov/",
+    "snippet": "The NASA Technology Transfer program ensures that innovations developed for exploration and discovery are broadly available to the public, maximizing the\u00a0..."
+  },
+  {
+    "index": 42,
+    "title": "NASA Ozone Watch: Latest status of ozone",
+    "link": "https://ozonewatch.gsfc.nasa.gov/",
+    "snippet": "Each year for the past few decades during the Southern Hemisphere spring, chemical reactions involving chlorine and bromine cause ozone in the southern polar\u00a0..."
+  },
+  {
+    "index": 43,
+    "title": "NASA Spinoff: Home",
+    "link": "https://spinoff.nasa.gov/",
+    "snippet": "Spinoff highlights NASA technologies that benefit life on Earth in the form of commercial products. We've profiled more than 2,000 spinoffs since 1976 \u2014 there's\u00a0..."
+  },
+  {
+    "index": 44,
+    "title": "Explore the NASA STI Repository (NTRS) - Scientific and Technical ...",
+    "link": "https://sti.nasa.gov/",
+    "snippet": "The NASA STI Program manages a world-class collection of aerospace-related citations, full-text online documents, images, and videos created or funded by NASA."
+  },
+  {
+    "index": 45,
+    "title": "Stream NASA | Listen to podcast episodes online for free on ...",
+    "link": "https://soundcloud.com/NASA",
+    "snippet": "Play NASA and discover followers on SoundCloud | Stream tracks, albums, playlists on desktop and mobile."
+  },
+  {
+    "index": 46,
+    "title": "NASA Artemis | Send Your Name to Space",
+    "link": "https://www3.nasa.gov/send-your-name-with-artemis/",
+    "snippet": "Artemis is the name of NASA's program to return astronauts to the lunar surface. We are going forward to the Moon to stay."
+  },
+  {
+    "index": 47,
+    "title": "NASA Research Opportunities Online - NSPIRES",
+    "link": "https://nspires.nasaprs.com/external/",
+    "snippet": "NASA Solicitation and Proposal Integrated Review and Evaluation System (NSPIRES) is the official NASA system used to receive, evaluate, and select proposals\u00a0..."
+  },
+  {
+    "index": 48,
+    "title": "HDEV",
+    "link": "https://eol.jsc.nasa.gov/ESRS/HDEV/",
+    "snippet": "For all questions regarding the current external camera or the former HDEV experiment, please contact our team. NASA meatball logo ... nasa.gov | Contributors:\u00a0..."
+  },
+  {
+    "index": 49,
+    "title": "NASA/ADS",
+    "link": "https://ui.adsabs.harvard.edu/",
+    "snippet": "A powerful, streamlined new Astrophysics Data System."
+  },
+  {
+    "index": 50,
+    "title": "Interactive Weather Satellite Imagery Viewers from NASA MSFC",
+    "link": "https://weather.ndc.nasa.gov/GOES/",
+    "snippet": "NASA. George C. Marshall Space Flight Center Earth Science Branch. Interactive Global Geostationary\u00a0..."
+  },
+  {
+    "index": 51,
+    "title": "Mission Status - Voyager",
+    "link": "https://voyager.jpl.nasa.gov/mission/status/",
+    "snippet": "Sep 5, 1977 ... Both Voyager 1 and Voyager 2 have reached \"Interstellar space\" and each continue their unique journey through the Universe. In the NASA Eyes on\u00a0..."
+  },
+  {
+    "index": 52,
+    "title": "Visit Kennedy Space Center Visitor Complex at Cape Canaveral",
+    "link": "https://www.kennedyspacecenter.com/",
+    "snippet": "Fuel your quest for inspiration right here. Explore Attractions. Now + Next. Explore NASA's Space Shuttle Program. NASA Space\u00a0..."
+  },
+  {
+    "index": 53,
+    "title": "Orbital Debris Program Office: ARES",
+    "link": "https://orbitaldebris.jsc.nasa.gov/",
+    "snippet": "The NASA Orbital Debris Program Office, located at the Johnson Space Center, is recognized world-wide for its initiative in addressing orbital debris\u00a0..."
+  },
+  {
+    "index": 54,
+    "title": "NASA - National Aeronautics and Space Administration | LinkedIn",
+    "link": "https://www.linkedin.com/company/nasa",
+    "snippet": "NASA - National Aeronautics and Space Administration | 6356425 followers on LinkedIn. Explore the universe and discover our home planet with the official\u00a0..."
+  },
+  {
+    "index": 55,
+    "title": "NASA Advanced Supercomputing Division Website",
+    "link": "https://www.nas.nasa.gov/",
+    "snippet": "6 days ago ... Using the Pleiades supercomputer at the NASA Advanced Supercomputing facility at Ames Research Center in California's Silicon Valley,\u00a0..."
+  },
+  {
+    "index": 56,
+    "title": "NASA POWER | Prediction Of Worldwide Energy Resources",
+    "link": "https://power.larc.nasa.gov/",
+    "snippet": "The Prediction Of Worldwide Energy Resources (POWER) project was initiated to improve upon the current renewable energy data set and to create new data sets\u00a0..."
+  },
+  {
+    "index": 57,
+    "title": "Landsat Science",
+    "link": "https://landsat.gsfc.nasa.gov/",
+    "snippet": "This joint NASA/USGS program provides the longest continuous space-based record of Earth's land in existence."
+  },
+  {
+    "index": 58,
+    "title": "Welcome to the NSSDCA",
+    "link": "https://nssdc.gsfc.nasa.gov/",
+    "snippet": "NASA Space Science Data Coordinated Archive (NSSDCA) Home Page."
+  },
+  {
+    "index": 59,
+    "title": "NASA on the App Store",
+    "link": "https://apps.apple.com/us/app/nasa/id334325516",
+    "snippet": "Description. The redesigned NASA App unlocks access to our new NASA+ video streaming service, the latest NASA news, upgraded interactive experiences, mission\u00a0..."
+  },
+  {
+    "index": 60,
+    "title": "Daily Moon Guide | Observe \u2013 Moon: NASA Science",
+    "link": "https://moon.nasa.gov/moon-observation/daily-moon-guide/",
+    "snippet": "NASA's interactive map for observing the Moon each day of the year."
+  },
+  {
+    "index": 61,
+    "title": "Daily Moon Guide | Observe \u2013 Moon: NASA Science",
+    "link": "https://moon.nasa.gov/moon-observation/daily-moon-guide/",
+    "snippet": "NASA's interactive map for observing the Moon each day of the year."
+  },
+  {
+    "index": 62,
+    "title": "NASA's Earth Observing System",
+    "link": "https://eospso.nasa.gov/content/nasas-earth-observing-system-project-science-office",
+    "snippet": "NASA's Earth Observing System Project Science Office. NASA's Earth Observing System (EOS) is a coordinated series of polar-orbiting and low inclination\u00a0..."
+  },
+  {
+    "index": 63,
+    "title": "ARES | Meteorite Falls",
+    "link": "https://ares.jsc.nasa.gov/meteorite-falls/",
+    "snippet": "Aug 2, 2023 ... Are you curious about locations of recent meteorite fall events? Meteorite Falls, a NASA ARES website, is just the place for you!"
+  },
+  {
+    "index": 64,
+    "title": "NASA HQ PHOTO | Flickr",
+    "link": "https://www.flickr.com/photos/nasahqphoto/",
+    "snippet": "Explore NASA HQ PHOTO's 26925 photos on Flickr!"
+  },
+  {
+    "index": 65,
+    "title": "NASA Exoplanet Archive",
+    "link": "https://exoplanetarchive.ipac.caltech.edu/",
+    "snippet": "Work with Data ... NASA Exoplanet Archive is operated by the California Institute of Technology, under contract with the National Aeronautics and Space\u00a0..."
+  },
+  {
+    "index": 66,
+    "title": "NASA APPEL Knowledge Services",
+    "link": "https://appel.nasa.gov/",
+    "snippet": "Through its world-class training curriculum, knowledge-sharing initiatives, development resources, and strategic communications, the Academy of Program/Project\u00a0..."
+  },
+  {
+    "index": 67,
+    "title": "NASA Ocean Color",
+    "link": "https://oceancolor.gsfc.nasa.gov/",
+    "snippet": "Ocean Color Web. NASA deploys a number of Earth observing instruments that measure the spectral nature, or color, of water. ... The Ocean Biology Processing Group\u00a0..."
+  },
+  {
+    "index": 68,
+    "title": "NASA Climate Kids: Home",
+    "link": "https://climatekids.nasa.gov/",
+    "snippet": "A Guide to Climate Change for Kids ... Illustration of the layers of Earth's atmosphere. What's in the Atmosphere? ... Alaska's Muir glacier in August 1941 and\u00a0..."
+  },
+  {
+    "index": 69,
+    "title": "NASA MODIS Web",
+    "link": "https://modis.gsfc.nasa.gov/",
+    "snippet": "Cloud Streets and Sea Ice in Sea of Okhotsk. Frosty air sweeping across winter-white Eastern Russia created stunning cloud formations over the Sea of Okhotsk on\u00a0..."
+  },
+  {
+    "index": 70,
+    "title": "NASA SEWP Home",
+    "link": "https://www.sewp.nasa.gov/",
+    "snippet": "About SEWP. The NASA SEWP (Solutions for Enterprise-Wide Procurement) GWAC (Government-Wide Acquisition Contract) provides the latest in Information and\u00a0..."
+  },
+  {
+    "index": 71,
+    "title": "Snowshoe Lava Field",
+    "link": "https://www.earthobservatory.nasa.gov/images/152269/snowshoe-lava-field",
+    "snippet": "1 day ago ... NASA Earth Observatory image by Michala Garrison, using Landsat data ... NASA Official Robert Levy. The Earth Observatory is part of the. EOS\u00a0..."
+  },
+  {
+    "index": 72,
+    "title": "Exobiology Extant Life Surveyor (EELS) - JPL Robotics",
+    "link": "https://www-robotics.jpl.nasa.gov/how-we-do-it/systems/exobiology-extant-life-surveyor-eels/",
+    "snippet": "It is designed to be adaptable to traverse ocean-world-inspired terrain, fluidized media, enclosed labyrinthian environments and liquids. Illustration of the\u00a0..."
+  },
+  {
+    "index": 73,
+    "title": "Current State of Sea Ice Cover | Earth",
+    "link": "https://earth.gsfc.nasa.gov/cryo/data/current-state-sea-ice-cover",
+    "snippet": "Responsible NASA Official: Karen Mohr Web Developers: 610 Web Dev Curator: Rashida Holland. Footer menu. Contact \u00b7 Privacy Policy \u00b7 Site Map. Last Updated: 12/\u00a0..."
+  },
+  {
+    "index": 74,
+    "title": "Roman Space Telescope/NASA",
+    "link": "https://roman.gsfc.nasa.gov/",
+    "snippet": "Nancy Grace Roman Space Telescope \u00b7 Roman \u00b7 The Roman Space Telescope will complete the statistical census of planetary systems in the galaxy by using\u00a0..."
+  },
+  {
+    "index": 75,
+    "title": "NASA SWOT: Home",
+    "link": "https://swot.jpl.nasa.gov/",
+    "snippet": "SWOT: NASA's first global survey of Earth's surface water, providing data for clean air and water, extreme events, and long-term environmental changes."
+  },
+  {
+    "index": 76,
+    "title": "NASA ICE: Home Page",
+    "link": "https://ice.nasa.gov/home",
+    "snippet": "NASA's Cryospheric Sciences Program supports studies based on satellite and aircraft remote sensing observations to understand the factors controlling changes\u00a0..."
+  },
+  {
+    "index": 77,
+    "title": "Space camp Programs | U.S. Space & Rocket Center",
+    "link": "https://www.rocketcenter.com/SpaceCamp",
+    "snippet": "This internationally known program with more than 700,000 alumni is based on NASA astronaut training and focuses on teamwork and leadership skills. Launched\u00a0..."
+  },
+  {
+    "index": 78,
+    "title": "Sunrise from the Station",
+    "link": "https://earthobservatory.nasa.gov/images/152259/sunrise-from-the-station",
+    "snippet": "3 days ago ... The Sun\u2014the focal point in this image\u2014is front and center in NASA's Heliophysics Big Year. ... Additional images taken by astronauts and\u00a0..."
+  },
+  {
+    "index": 79,
+    "title": "NASA Airborne Science Program",
+    "link": "https://airbornescience.nasa.gov/",
+    "snippet": "About the Airborne Science Program \u00b7 Satellite Calibration and Validation Provide platforms to enable essential calibration measurements for the Earth observing\u00a0..."
+  },
+  {
+    "index": 80,
+    "title": "Homepage | NOAA / NWS Space Weather Prediction Center",
+    "link": "https://www.swpc.noaa.gov/",
+    "snippet": "Solar Wind Speed: 290 km/sec \u00b7 Solar Wind Magnetic Fields: Bt 4 nT, Bz -2 nT \u00b7 Noon 10.7cm Radio Flux: 142 sfu\u00a0..."
+  },
+  {
+    "index": 81,
+    "title": "Homepage | NOAA / NWS Space Weather Prediction Center",
+    "link": "https://www.swpc.noaa.gov/",
+    "snippet": "Solar Wind Speed: 290 km/sec \u00b7 Solar Wind Magnetic Fields: Bt 4 nT, Bz -2 nT \u00b7 Noon 10.7cm Radio Flux: 142 sfu\u00a0..."
+  },
+  {
+    "index": 82,
+    "title": "LAADS DAAC: Level-1 and Atmosphere Archive & Distribution ...",
+    "link": "https://ladsweb.modaps.eosdis.nasa.gov/",
+    "snippet": "Feb 22, 2017 ... NASA's Level-1 and Atmosphere Archive and Distribution System Distributed Active Archive Center (LAADS DAAC) has completed the migration of all."
+  },
+  {
+    "index": 83,
+    "title": "NASA's Lunar Reconnaissance Orbiter",
+    "link": "https://lunar.gsfc.nasa.gov/",
+    "snippet": "LRO continues to help identify sites close to potential resources with high scientific value, favorable terrain and the environment necessary for safe\u00a0..."
+  },
+  {
+    "index": 84,
+    "title": "NASA CMS",
+    "link": "https://carbon.nasa.gov/",
+    "snippet": "NASA's CMS supports prototyping of new data capabilities that aid in the monitoring, reporting, and verification of carbon stocks and fluxes."
+  },
+  {
+    "index": 85,
+    "title": "HEASARC: NASA's Archive of Data on Energetic Phenomena",
+    "link": "https://heasarc.gsfc.nasa.gov/",
+    "snippet": "NASA's High Energy Astrophysics Science Archive Research Center is for scientists and astronomy enthusiasts seeking actual data from a multitude of\u00a0..."
+  },
+  {
+    "index": 86,
+    "title": "NASA Center for Climate Simulation | High Performance Computing ...",
+    "link": "https://www.nccs.nasa.gov/",
+    "snippet": "The purpose of the NCCS is to enhance NASA capabilities in Earth Science, with an emphasis on weather and climate prediction, and to enable future scientific\u00a0..."
+  },
+  {
+    "index": 87,
+    "title": "Near-Earth Asteroids (NEAs)",
+    "link": "https://cneos.jpl.nasa.gov/stats/totals.html",
+    "snippet": "NASA's Near-Earth Object (NEO) web-site. Data related to Earth impact risk, close-approaches, and much more."
+  },
+  {
+    "index": 88,
+    "title": "NASA \u00b7 GitHub",
+    "link": "https://github.com/nasa",
+    "snippet": "Repositories \u00b7 openmct Public. A web based mission control framework. \u00b7 ncompare Public. Compare the structure of two netCDF files at the command line \u00b7 cumulus\u00a0..."
+  },
+  {
+    "index": 89,
+    "title": "Home | NASA Global Precipitation Measurement Mission",
+    "link": "https://gpm.nasa.gov/",
+    "snippet": "NASA's Global Precipitation Measurement Mission (GPM) uses satellites to measure Earth's rain and snowfall for the benefit of mankind. Launched by NASA and\u00a0..."
+  },
+  {
+    "index": 90,
+    "title": "ASDC | Home",
+    "link": "https://asdc.larc.nasa.gov/",
+    "snippet": "... nasa.gov/data/MISR) for full file download and our MISR subset order tool for customization of downloads. MISR order tool: https://l0dup05.larc.nasa.gov/cgi\u00a0..."
+  },
+  {
+    "index": 91,
+    "title": "NASA/Lance-Modis",
+    "link": "https://lance.modaps.eosdis.nasa.gov/",
+    "snippet": "NASA's Land, Atmosphere Near-real-time Capability for EOS (LANCE) leverages existing satellite data processing systems in order to provide data and imagery\u00a0..."
+  },
+  {
+    "index": 92,
+    "title": "Space.com: NASA, Space Exploration and Astronomy News",
+    "link": "https://www.space.com/",
+    "snippet": "NASA laser-beams adorable cat video to Earth from 19 million miles away (video) \u00b7 2. Lego announces new space-themed kits for 2024 including Mars base, rockets\u00a0..."
+  },
+  {
+    "index": 93,
+    "title": "Largest Batch of Earth-size Habitable Zone Planets Found Orbiting ...",
+    "link": "https://exoplanets.nasa.gov/trappist1/",
+    "snippet": "Mar 28, 2023 ... This video details a system of seven planets orbiting TRAPPIST-1, a discovery of the Spitzer Space Telescope, operated by NASA's Jet Propulsion\u00a0..."
+  },
+  {
+    "index": 94,
+    "title": "GRACE Tellus",
+    "link": "https://grace.jpl.nasa.gov/",
+    "snippet": "Google's 'A Passage of Water' Brings NASA's Water Data to Life ... The NASA GRACE Data Analysis Tool (DAT) allows for quick-look comparisons and analyses of NASA\u00a0..."
+  },
+  {
+    "index": 95,
+    "title": "Earthdata Login",
+    "link": "https://urs.earthdata.nasa.gov/",
+    "snippet": "Protection and maintenance of user profile information is described in NASA's Web Privacy Policy. ... For questions regarding the EOSDIS Earthdata Login, please\u00a0..."
+  },
+  {
+    "index": 96,
+    "title": "NASA GeneLab: Open Science for Life in Space",
+    "link": "https://genelab.nasa.gov/",
+    "snippet": "The first comprehensive space-related omics database in which users can upload, download, share, store, and analyze spaceflight and corresponding model\u00a0..."
+  },
+  {
+    "index": 97,
+    "title": "Internships",
+    "link": "https://stemgateway.nasa.gov/public/s/explore-opportunities/internships",
+    "snippet": "Visit intern.nasa.gov for more information on the NASA Internship Program ... NASA also sponsors interns at the Jet Propulsion Laboratory (JPL) in California."
+  },
+  {
+    "index": 98,
+    "title": "ICESat-2",
+    "link": "https://icesat-2.gsfc.nasa.gov/homepage",
+    "snippet": "NASA Earth Observatory Image of the Day. Read about it here. ... Every three months, the NASA Ice, Cloud, and land Elevation Satellite-2 (ICESat-2) completes a\u00a0..."
+  },
+  {
+    "index": 99,
+    "title": "GES DISC",
+    "link": "https://disc.gsfc.nasa.gov/",
+    "snippet": "Unified User Interface at NASA, UUI, data, GES DISC, datasets."
+  },
+  {
+    "index": 100,
+    "title": "EarthExplorer",
+    "link": "https://earthexplorer.usgs.gov/",
+    "snippet": "NASA LPDAAC Collections. ASTER Collections. ASTER Collections Dataset List ... NASA DEM Collections. NASA DEM Collections Dataset List. NASADEM_HGT. NASADEM_SC."
+  }
+]

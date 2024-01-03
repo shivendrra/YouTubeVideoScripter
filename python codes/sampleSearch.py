@@ -1,5 +1,13 @@
 import requests
 import json
+from dotenv import load_dotenv
+import os
+
+os.chdir('D:/Machine Learning/Scripting Application/')
+load_dotenv()
+
+api_key = os.getenv('search_key')
+cx_id = os.getenv('cx_id')
 
 def google_search(search_term, api_key, cx_id, **kwargs):
     url = "https://www.googleapis.com/customsearch/v1"
@@ -16,16 +24,12 @@ def main():
     search_term = input("Enter the search term: ")
     results = google_search(
         search_term, 
-        api_key='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', 
-        cx_id='27d4bab791cce4187', 
-        num=10
+        api_key=api_key, 
+        cx_id=cx_id, 
+        num=1
     )
-    for result in results['items']:
-        print(json.dumps({
-            'title': result['title'],
-            'link': result['link'],
-            'snippet': result['snippet']
-        }, indent=4))
+    with open('data/sample_results.json', 'w') as file:
+        json.dump(results, file, indent=2)
 
 if __name__ == '__main__':
     main()
