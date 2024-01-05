@@ -20,12 +20,12 @@ async function fetchData(url) {
 function extractTextFromHtml(html) {
   const $ = cheerio.load(html);
   const paragraphs = $('p').map((index, element) => $(element).text()).get();
-  return paragraphs.join();
+  return paragraphs.join('\n');
 }
 
 async function saveTextToFile(text, fileName) {
   try {
-    fs.writeFileSync(fileName, text);
+    fs.appendFileSync(fileName, text);
     console.log(`Text data saved to ${fileName}`);
   }
   catch (error) {
@@ -35,7 +35,7 @@ async function saveTextToFile(text, fileName) {
 
 async function main() {
   for (const result of searchResults) {
-    const htmlData = await fetchData(result.url);
+    const htmlData = await fetchData(result.link);
     if (htmlData) {
       const textData = extractTextFromHtml(htmlData);
       await saveTextToFile(textData, outputFileName);
