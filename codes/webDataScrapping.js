@@ -2,9 +2,10 @@ const fs = require('fs');
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const jsonData = fs.readFileSync('../data/search_results.json')
+const jsonData = fs.readFileSync('../data/search_results.json');
 const searchResults = JSON.parse(jsonData);
 const outputFileName = '../data/output.txt';
+let n_videos = 0;
 
 async function fetchData(url, timeout = 10000) {
   try {
@@ -31,6 +32,7 @@ function extractTextFromHtml(html) {
 async function saveTextToFile(text, fileName, url) {
   try {
     fs.appendFileSync(fileName, text);
+    n_videos = n_videos + 1;
     console.log(`${url}'s text data saved to ${fileName}`);
   }
   catch (error) {
@@ -46,6 +48,7 @@ async function main() {
       await saveTextToFile(textData, outputFileName, result.link);
     }
   }
+  console.log(`total ${n_videos}`);
 }
 
 main();

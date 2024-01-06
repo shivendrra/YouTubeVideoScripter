@@ -17,6 +17,7 @@ n_pages = 10
 n_results = 0
 
 import timeit
+import time
 start_time = timeit.default_timer()
 
 def google_search(search_term, api_key, cx_id, **kwargs):
@@ -32,7 +33,7 @@ def google_search(search_term, api_key, cx_id, **kwargs):
 
 def data_collector(input, pages, n_results):
   for page in range(0, pages):
-    start = page * 10 + 1  # Google's result indexing starts at 1
+    start = page * 10 + 1
     results = google_search(input, api_key, cx_id, num=10, start=start)
     if 'items' in results:
       for result in results['items']:
@@ -50,9 +51,10 @@ def data_collector(input, pages, n_results):
 
 for inputs in search_strings:
   print(inputs)
+  # time.sleep(1000)
   output_json = data_collector(inputs, n_pages, n_results)
 
-with open('data/search_results.json', 'w') as file:
+with open('data/search_results_v1.json', 'w') as file:
   json.dump(output_json, file, indent=2)
   print(f'total no of results were {len(output_json)}')
   print('data written in the file successfully!')
@@ -61,7 +63,8 @@ end_time = timeit.default_timer()
 print(f'time taken to fetch and write the results is: {(end_time-start_time) / 60} mins')
 
 
-""" "global news",
+"""
+  "global news",
   "indian diplomacy",
   "food blogs",
   "nasa",
@@ -70,4 +73,17 @@ print(f'time taken to fetch and write the results is: {(end_time-start_time) / 6
   "wikipedia articles",
   "George Washington",
   "Terrorists attacks",
-  "War news", """
+  "War news", 
+  "9/11 terrorist attack",
+  "Hamas vs Israel",
+  "World War 1",
+  "World War 2",
+  "Manhattan Project",
+  "Elon Musk",
+  "Stephen Hawkings",
+  "Apollo missions",
+  "Industrial revolution",
+  "Indian Independence",
+  "American Independence",
+
+"""
