@@ -59,3 +59,15 @@ with open('data/search_results.json', 'w') as file:
 
 end_time = timeit.default_timer()
 print(f'time taken to fetch and write the results is: {(end_time-start_time) / 60} mins')
+
+
+""" "global news",
+  "indian diplomacy",
+  "food blogs",
+  "nasa",
+  "indian news",
+  "sports news",
+  "wikipedia articles",
+  "George Washington",
+  "Terrorists attacks",
+  "War news", """
