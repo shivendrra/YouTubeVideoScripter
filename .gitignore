@@ -2,8 +2,8 @@
 some_texts.txt
 .env
 client_secret.json
-data/big_data.txt
-codes/sample.js
+data/scrapped files/big_data.txt
+codes/javascript/sample.js
 
 # Logs
 logs

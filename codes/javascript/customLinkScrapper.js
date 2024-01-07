@@ -1,11 +1,13 @@
+// fetches all the available links from the Britannica.com
+
 const fs = require('fs');
 const axios = require('axios');
 const puppeteer = require('puppeteer');
 const cheerio = require('cheerio');
 
-const file_path = '../data/searched_strings.json';
-const search_query = ['antarctica', 'colonization', 'world war', 'asia', 'europe', 'australia', 'holocaust'];
-const out_file = '../data/britannica_links.json';
+const file_path = '../data/json outputs/searched_strings.json';
+const search_query = ['antarctica', 'colonization', 'world war', 'asia', 'africa', 'australia', 'holocaust', 'voyages', ''];
+const out_file = '../data/json outputs/britannica_links.json';
 let n_results = 0;
 let pageNo = 1;
 const start_time = Date.now();
@@ -33,9 +35,8 @@ async function scrapeLinks(htmlContent) {
   $('.search-results.col ul.list-unstyled.results li').each((index, element) => {
     const linkElement = $(element).find('a.font-weight-bold');
     const href = linkElement.attr('href');
-    links.push({ href });
+    links.push(href);
   });
-  console.log(links);
   return links;
 }
 
@@ -43,10 +44,9 @@ async function main(search_query, pgNo) {
   for (const query of search_query) {
     const response = await scrapeHtml(query, pgNo);
     if (response.status === 200) {
-      const links = []
-      links.push(scrapeLinks(response.data));
-      pgNo += 1;
+      const links = await scrapeLinks(response.data);
       n_results += 10;
+      const resultObject = { query, links };
       fs.appendFileSync(out_file, JSON.stringify({ query, links }) + '\n');
     } else {
       console.error(`Error in search for '${query}': ${response}`);

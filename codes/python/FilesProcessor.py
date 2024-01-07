@@ -1,3 +1,5 @@
+# appends all the .txt file in a directory to a single big .txt file
+
 import os
 os.chdir("D:/Machine Learning/Scripting Application/")
 

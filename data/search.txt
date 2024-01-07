@@ -1,0 +1,28 @@
+"""
+  "global news",
+  "indian diplomacy",
+  "food blogs",
+  "nasa",
+  "indian news",
+  "sports news",
+  "wikipedia articles",
+  "George Washington",
+  "Terrorists attacks",
+  "War news", 
+  "9/11 terrorist attack",
+  "Hamas vs Israel",
+  "World War 1",
+  "World War 2",
+  "Manhattan Project",
+  "Elon Musk",
+  "Stephen Hawkings",
+  "Apollo missions",
+  "Industrial revolution",
+  "Indian Independence",
+  "American Independence",
+
+  ------------
+
+  ""
+
+"""
