@@ -1,4 +1,5 @@
-# fetches the reults from the google search engines and saves all the links in json file
+# fetches the reults from the hosted search engines and saves all the links in json file
+# doesn't work properly
 
 import os
 os.chdir('D:/Machine Learning/Scripting Application/')
@@ -12,7 +13,7 @@ cx_id = os.getenv('cx_id')
 import requests
 import json
 
-file_path = 'data/json outputs/search_strings.json'
+file_path = 'data/search_strings.json'
 with open(file_path, 'r') as file:
   search_strings = json.load(file)
 output_data = []
@@ -50,7 +51,6 @@ def data_collector(input, pages, n_results):
 
 for inputs in search_strings:
   print(inputs)
-  # time.sleep(1000)
   output_json = data_collector(inputs, n_pages, n_results)
 
 with open('data/json outputs/search_results_v1.json', 'w') as file:

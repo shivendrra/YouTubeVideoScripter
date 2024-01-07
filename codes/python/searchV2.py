@@ -1,3 +1,5 @@
+# fetches the reults from the google search engines and saves all the links in json file
+
 from dotenv import load_dotenv
 import os
 
@@ -53,7 +55,7 @@ for inputs in search_strings:
   print(inputs)
   output_json = data_collector(inputs, n_pages, n_results)
 
-with open('data/search_results_v1.json', 'w') as file:
+with open('data/json outputs/search_results_v2.json', 'w') as file:
   json.dump(output_json, file, indent=2)
   print(f'total no of results were {len(output_json)}')
   print('data written in the file successfully!')
