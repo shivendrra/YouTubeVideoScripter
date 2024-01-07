@@ -4,9 +4,9 @@ const fs = require('fs');
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const jsonData = fs.readFileSync('../data/search_results.json');
+const jsonData = fs.readFileSync('../../data/json outputs/search_results_v1.json');
 const searchResults = JSON.parse(jsonData);
-const outputFileName = '../data/output.txt';
+const outputFileName = '../../data/scrapped files/output.txt';
 let n_pages = 0;
 
 async function fetchData(url, timeout = 10000) {
