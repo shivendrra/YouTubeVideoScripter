@@ -3,6 +3,7 @@ some_texts.txt
 .env
 client_secret.json
 data/big_data.txt
+codes/sample.js
 
 # Logs
 logs
