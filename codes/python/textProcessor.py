@@ -19,7 +19,7 @@ def process_text(input_file, output_file):
             outfile.write(' '.join(words) + '\n')
 
 if __name__ == "__main__":
-  input_file = 'data/scrapped files/raw_output.txt'
+  input_file = 'data/scrapped files/output.txt'
   output_file = 'data/scrapped files/processed_output.txt'
   process_text(input_file, output_file)
   print(f"Text processing completed. Result written to '{output_file}'")

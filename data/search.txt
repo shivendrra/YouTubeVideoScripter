@@ -37,6 +37,28 @@
 
   -------------
 
-  
+  "quantum mechanics",
+  "nuclear physics",
+  "bosons",
+  "physics",
+  "rockets",
+  "space exploration",
+  "biological viruses",
+  "covid-19 news",
+  "corona virus",
+  "malaria and dengue",
+  "volcanos",
+  "ebola virus and it's history",
+  "biological innovations",
+  "CRISPR CAS-9",
+  "Indian Scientists",
+  "Jawahar Lal Nehru",
+  "Martin Luther King Jr",
+  "Mathematics",
+  "Ramanujan and Prof. Hardy",
+  "Abraham Lincon",
+  "Hitler",
+  "Holocaust",
+  "Jews during WW2"
 
 """

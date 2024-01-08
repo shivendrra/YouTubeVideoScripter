@@ -26,6 +26,6 @@ def combine_text_files(input_directory, output_file):
         print(f"Skipping non-text file: {file_name}")
 
 if __name__ == "__main__":
-  input_directory = "data/txt files"
-  output_file = "data/txt files/big_data.txt"
+  input_directory = "data/scrapped files"
+  output_file = "data/scrapped files/big_data.txt"
   combine_text_files(input_directory, output_file)

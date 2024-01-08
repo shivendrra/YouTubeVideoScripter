@@ -4,7 +4,7 @@ const fs = require('fs');
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const jsonData = fs.readFileSync('../../data/json outputs/search_results_v1.json');
+const jsonData = fs.readFileSync('../../data/json outputs/search_results_v2.json');
 const searchResults = JSON.parse(jsonData);
 const outputFileName = '../../data/scrapped files/output.txt';
 let n_pages = 0;
