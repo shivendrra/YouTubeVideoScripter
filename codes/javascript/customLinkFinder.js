@@ -5,9 +5,9 @@ const axios = require('axios');
 const puppeteer = require('puppeteer');
 const cheerio = require('cheerio');
 
-const file_path = '../data/json outputs/searched_strings.json';
-const search_query = ['antarctica', 'colonization', 'world war', 'asia', 'africa', 'australia', 'holocaust', 'voyages', ''];
-const out_file = '../data/json outputs/britannica_links.json';
+const file_path = '../../data/britannica_queries.json';
+const search_query = require(file_path);
+const out_file = '../../data/json outputs/britannica_links.json';
 let n_results = 0;
 let pageNo = 1;
 const start_time = Date.now();
@@ -42,21 +42,25 @@ async function scrapeLinks(htmlContent) {
 
 async function main(search_query, pgNo) {
   for (const query of search_query) {
-    const response = await scrapeHtml(query, pgNo);
-    if (response.status === 200) {
-      const links = await scrapeLinks(response.data);
-      n_results += 10;
-      const resultObject = { query, links };
-      fs.appendFileSync(out_file, JSON.stringify({ query, links }) + '\n');
+    const queryLinks = [];
+    for (let pageNo = pgNo; pageNo < 20; pageNo++) {
+      const response = await scrapeHtml(query, pageNo);
+      if (response.status === 200) {
+        const links = await scrapeLinks(response.data);
+        queryLinks.push(links);
+        n_results += 10;
     } else {
       console.error(`Error in search for '${query}': ${response}`);
     }
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await new Promise(resolve => setTimeout(resolve, 500));
+  }
+  fs.appendFileSync(out_file, JSON.stringify({ query, links: queryLinks }) + '\n');
+  await new Promise(resolve => setTimeout(resolve, 1000));
   }
   console.log(`Total ${n_results} results`);
 }
 
 main(search_query, pageNo).then(() => {
   const end_time = Date.now();
-  console.log(`Time to fetch and process the results: ${(end_time - start_time) / 1000} secs`);
+  console.log(`Time to fetch and process the results: ${(end_time - start_time) / (60 * 1000)} mins`);
 });

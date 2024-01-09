@@ -59,6 +59,30 @@
   "Abraham Lincon",
   "Hitler",
   "Holocaust",
-  "Jews during WW2"
+  "Jews during WW2",
+  "Jawahar Lal Nehru",
+  "Martin Luther King Jr",
+  "Mathematics",
+  "Ramanujan and Prof. Hardy",
+  "Abraham Lincon",
+  "Hitler",
+  "Holocaust",
+  "Jews during WW2",
+  "Jupiter and it's moons",
+  "planets far away",
+  "Richard P. Feynman",
+  "Albert Einstein",
+  "Alfred Nobel",
+  "Polio and its solution",
+  "Marie Curie and Radioactivity",
+  "Nuclear fallouts",
+  "Robert Goddard",
+  "Carl Sagan",
+  "Nikola Tesla and his contributions",
+  "Alexander Felmming",
+  "William and John Herschel"
+
+------------
+  
 
 """

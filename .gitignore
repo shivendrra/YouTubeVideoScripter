@@ -2,8 +2,9 @@
 some_texts.txt
 .env
 client_secret.json
-data/scrapped files/big_data.txt
+data/scrapped files/
 codes/javascript/sample.js
+codes/python/sample.py
 extra.txt
 
 # Logs
