@@ -1,0 +1,36 @@
+body {
+  margin: auto;
+  padding: auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  color: #393E46;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+.row {
+  max-width: 100%;
+  margin: auto;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #191919;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
