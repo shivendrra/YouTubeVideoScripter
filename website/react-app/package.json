@@ -1,22 +1,32 @@
 {
-  "name": "react-app",
+  "name": "cricle-script",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "better-react-carousel": "^1.1.1",
+    "express": "^4.18.2",
+    "gh-pages": "^5.0.0",
+    "mongoose": "^7.1.0",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.21.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "both": "concurrently \"npm run start\" \"nodemon backend/index.js\""
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
   }
 }

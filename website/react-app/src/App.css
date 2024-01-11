@@ -34,3 +34,30 @@ a, a:hover {
 * {
   box-sizing: border-box;
 }
+
+/* Navbar */
+
+.navbar {
+  color: black;
+  background-color: white;
+}
+
+.nav-item .nav-link {
+  color: black;
+}
+
+/* Lander */
+.mainLander {
+  background-color: yellow;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 100%;
+  padding-top: 100px;
+}
+
+.sideSec {
+  background-color: aliceblue;
+  color: black;
+}

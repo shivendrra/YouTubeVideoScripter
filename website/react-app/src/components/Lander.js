@@ -1,9 +1,26 @@
-import React from 'react'
+import React from 'react';
+import SideSec from './sub-components/SideSec';
 
 export default function Lander() {
   return (
     <>
-    <div className="mainLander"></div>
+    <div className='mainLander'>
+      <div className="row">
+        <div className="sideSec col-lg-4">
+          <SideSec/>
+        </div>
+        <div className="col-lg-8">
+          <ul>
+            <li>Name</li>
+            <li>Name</li>
+            <li>Name</li>
+            <li>Name</li>
+            <li>Name</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
     </>
   )
 }
