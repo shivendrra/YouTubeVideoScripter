@@ -6,10 +6,10 @@ export default function Lander() {
     <>
     <div className='mainLander'>
       <div className="row">
-        <div className="sideSec col-lg-4">
+        <div className="sideSec col-lg-3">
           <SideSec/>
         </div>
-        <div className="col-lg-8">
+        <div className="col-lg-9">
           <ul>
             <li>Name</li>
             <li>Name</li>
