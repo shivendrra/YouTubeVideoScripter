@@ -72,7 +72,7 @@ a, a:hover {
   background-color: #171717;
   border: 2px solid #191919;
   border-radius: 5px;
-  padding: 40px 15px;
+  padding: 15px 15px;
   height: 90vh;
 }
 
@@ -93,8 +93,82 @@ a, a:hover {
   text-overflow: ellipsis;
 }
 
+.main-text-area{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.text-options .col {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: orange;
+  height: 50px;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: #00000059 0px 5px 15px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+.first {
+  border: 1px solid #171717;
+  padding: auto;
+  margin: auto;
+}
+.second {
+  border-right: 2px solid #40576d33;
+}
+.col button {
+  border: none;
+  color: #131c35;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: transparent;
+  padding: 10px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  user-select: none;
+}
+button:hover {
+  background-color: rgb(255, 185, 56);
+}
+button.active {
+  background-color: rgb(255, 185, 56);
+  color: #5271ff;
+}
+.third {
+  border-right: 2px solid #40576d33;
+}
+.third button:focus {
+  background-color: #73b1e333;
+  color: #5271ff;
+}
+input[type=color] {
+  width: 35px;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+input[type=number] {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 50px;
+  font-size: 18px;
+  padding: auto;
+  margin: auto;
+}
+
 .main-text-area textarea {
   max-height: 100%;
+  padding: 20px;
   margin: 10px;
   height: 90vh;
   width: 100%;
