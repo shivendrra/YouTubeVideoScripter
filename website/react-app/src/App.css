@@ -97,7 +97,6 @@ a, a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   border-radius: 10px;
 }
 
@@ -117,9 +116,11 @@ a, a:hover {
   padding: 0 5px;
 }
 .first {
-  border: 1px solid #171717;
-  padding: auto;
-  margin: auto;
+  background-color: rgb(255, 185, 56);
+  border: 1px solid rgb(190, 124, 1);
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0px 10px;
 }
 .second {
   border-right: 2px solid #40576d33;
@@ -137,7 +138,11 @@ a, a:hover {
 button:hover {
   background-color: rgb(255, 185, 56);
 }
-button.active {
+.first button:hover {   
+  background-color: rgb(255, 185, 56);
+  box-shadow: none;
+}
+button.active, .first button:active {
   background-color: rgb(255, 185, 56);
   color: #5271ff;
 }
@@ -158,13 +163,23 @@ input[type=number] {
   outline: none;
   border: none;
   background-color: transparent;
-  width: 50px;
+  width: 40px;
   font-size: 18px;
   padding: auto;
   margin: auto;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
 }
-.option-sec .font-change .dropdown-toggle{
-  font-size: 10px;
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.font-change button {
+  font-size: 20px;
 }
 
 .main-text-area textarea {
@@ -185,6 +200,6 @@ input[type=number] {
   border: none;
 }
 
-textarea ::-webkit-scrollbar{
+textarea::-webkit-scrollbar{
   display: none;
 }
