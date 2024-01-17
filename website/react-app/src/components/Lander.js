@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import SideSec from './sub-components/SideSec';
+import './comp-css/Lander.css';
 
-export default function Lander(props) {
+export default function Lander() {
 
   const textareaRef = useRef(null);
+  const [text, setText] = useState('Enter your script here')
   const [fontSize, setFontSize] = useState(16);
   const [fontWeight, setFontWeight] = useState('normal');
   const [fontStyle, setFontStyle] = useState('normal');
@@ -12,6 +14,10 @@ export default function Lander(props) {
   const [textTransform, setTextTransform] = useState('capitalize');
   const [textColor, setTextColor] = useState('#000000');
   const [font, setFont] = useState("Poppins");
+
+  const handleTextValue = (e) => {
+    setText(e.target.value)
+  }
 
   const handleFontSizeChange = (e) => {
     const inputElement = e.currentTarget.parentNode.querySelector('input[type=number]');
@@ -169,7 +175,10 @@ export default function Lander(props) {
                 <button type="button" onClick={handleResetClick}>
                   <i className="fa-solid fa-text-slash"></i>
                 </button>
-                <input type="color" value={textColor} onChange={handleColorChange} />
+                <input className='mx-3' type="color" value={textColor} onChange={handleColorChange} />
+              </div>
+              <div className="option-sec fifth ">
+                <p className='m-auto px-2' style={{fontWeight: '400'}}>{text.split(' ').length} words</p>
               </div>
             </div>
             <div className="col-lg-12 main-text-area">
@@ -187,7 +196,9 @@ export default function Lander(props) {
                   fontFamily: font
                 }}
                 aria-label="With textarea"
-                placeholder='Write your Script here'
+                value={text}
+                onChange={handleTextValue}
+                placeholder={text}
               ></textarea>
             </div>
           </div>
