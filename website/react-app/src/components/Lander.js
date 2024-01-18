@@ -127,14 +127,14 @@ export default function Lander() {
     <>
       <div className='mainLander'>
         <div className="row">
-          <div className="sideSec col-lg-3">
+          <div className="sideSec col-lg-2">
             <SideSec />
           </div>
-          <div className="col-lg-9 text-col">
+          <div className="col-lg-10 text-col">
             <div className="col-lg-12 text-options">
               <div className="option-sec font-change">
-                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">{font}</button>
-                <ul class="dropdown-menu">
+                <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">{font}</button>
+                <ul className="dropdown-menu">
                   <li className='dropdown-item' onClick={handleChangeFont}>Courier Prime</li>
                   <li className='dropdown-item' onClick={handleChangeFont}>Josefine Sans</li>
                   <li className='dropdown-item' onClick={handleChangeFont}>Poppins</li>

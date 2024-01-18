@@ -1,50 +1,41 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import React, { useState, useEffect } from "react";
+import SavedSession from "./SavedSession";
 
-export default function SideSec() {
+export default function SideSec(props) {
+  const [savedSessions, setSavedSessions] = useState([]);
+
+  const handleNewSession = () => {
+    console.log("Request for new session");
+  }
+
+  useEffect(() => {
+    const fetchedSessions = [
+      "Rakesh Sharma: First Indian to space",
+      "Another Saved Session Title",
+      "Yet Another Saved Session Title",
+    ];
+
+    setSavedSessions(fetchedSessions);
+  }, []);
+
   return (
     <>
       <div className="SideSec">
-        <h4>Saved Sessions</h4>
+        <div className="sideSec-head">
+          <div className="col-lg-11 my-auto" onClick={handleNewSession}>
+            <h6 className="my-auto">Saved Sessions</h6>
+          </div>
+          <div className="col-lg-1 my-auto">
+            <i id="newSession" className="fa-regular fa-square-plus" title="New Session"></i>
+          </div>
+        </div>
         <hr />
         <div className="saved-sess py-2">
-          <div className="saved-card px-2 mb-3">
-            <div className="saved-title">
-            <h6 className=' my-auto py-2'>Rakesh Sharma: First Indian to the space</h6>
-            </div>
-            <span className='saved-option px-2'>
-              <FontAwesomeIcon icon={faBars} />
-            </span>
-            <span className='saved-open px-2'>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </span>
-          </div>
-          <div className="saved-card px-2 mb-3">
-            <div className="saved-title">
-            <h6 className=' my-auto py-2'>Rakesh Sharma: First Indian to the space</h6>
-            </div>
-            <span className='saved-option px-2'>
-              <FontAwesomeIcon icon={faBars} />
-            </span>
-            <span className='saved-open px-2'>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </span>
-          </div>
-          <div className="saved-card px-2 mb-3">
-            <div className="saved-title">
-              <h6 className=' my-auto py-2'>Rakesh Sharma: First Indian to the space</h6>
-            </div>
-            <span className='saved-option px-2'>
-              <FontAwesomeIcon icon={faBars} />
-            </span>
-            <span className='saved-open px-2'>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </span>
-          </div>
+          {savedSessions.map((title, index) => (
+            <SavedSession key={index} title={title} />
+          ))}
         </div>
       </div>
     </>
-  )
+  );
 }
