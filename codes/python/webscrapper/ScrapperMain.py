@@ -1,3 +1,8 @@
+""" 
+--> Bhav nhi deta main iss code ko
+--> kuch to krta h, bss malum nhi
+"""
+
 from bs4 import BeautifulSoup
 import requests
 import os
@@ -7,8 +12,6 @@ file_path = 'data/json outputs/britannica_links.json'
 
 # importing links
 import json
-
-from URLFetcher import getLinks
 
 with open(file_path, 'r', encoding='utf-8') as file:
   url_dict = json.load(file)
