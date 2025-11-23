@@ -67,7 +67,7 @@ function App() {
       setMessages([]);
     }
   }, [activeSessionId]);
-  
+
   useEffect(() => {
     // Trace is only for the last bot message
     const lastBotMessage = [...messages].reverse().find(m => m.sender === 'bot');
@@ -76,18 +76,6 @@ function App() {
     // Sources are accumulated for the whole session and de-duplicated
     const allSources = messages.flatMap(msg => (msg.sender === 'bot' && msg.sources) ? msg.sources : []);
     const uniqueSources = Array.from(new Map(allSources.map(source => [source.id, source])).values());
-    
-    // Sort sources by date, most recent first, if date is available
-    uniqueSources.sort((a, b) => {
-        try {
-            const dateA = new Date(a.date).getTime();
-            const dateB = new Date(b.date).getTime();
-            return dateB - dateA;
-        } catch (e) {
-            return 0; // Don't sort if dates are invalid
-        }
-    });
-
     setSessionSources(uniqueSources);
   }, [messages]);
 
@@ -124,8 +112,8 @@ function App() {
     await addMessageToSession(activeSessionId, userMessage);
 
     if (isNewSession) {
-        const newTitle = query.length > 30 ? query.substring(0, 27) + '...' : query;
-        await updateSessionTitle(activeSessionId, newTitle);
+      const newTitle = query.length > 30 ? query.substring(0, 27) + '...' : query;
+      await updateSessionTitle(activeSessionId, newTitle);
     }
 
     const botMessage: Omit<Message, 'id' | 'timestamp' | 'trace'> = {
@@ -156,7 +144,7 @@ function App() {
       setIsLoading(false);
     }
   };
-  
+
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-50 dark:bg-zinc-900">
@@ -168,7 +156,7 @@ function App() {
   if (!user) {
     return <LoginScreen />;
   }
-  
+
   if (isProfileIncomplete || !userProfile) {
     return <ProfileSetupScreen user={user} />;
   }
@@ -234,7 +222,7 @@ function App() {
         <div className="hidden xl:flex xl:flex-shrink-0 w-80">
           {(userProfile?.settings?.showTrace !== false) && <TraceView trace={activeTrace} sources={sessionSources} onClose={() => setIsTraceViewOpen(false)} />}
         </div>
-        
+
         {/* Right TraceView (Slide-out on < XL) */}
         <div
           className={`
@@ -245,7 +233,7 @@ function App() {
         >
           {(userProfile?.settings?.showTrace !== false) && <TraceView trace={activeTrace} sources={sessionSources} onClose={() => setIsTraceViewOpen(false)} />}
         </div>
-        
+
         {/* Right TraceView Backdrop */}
         {isTraceViewOpen && (
           <div

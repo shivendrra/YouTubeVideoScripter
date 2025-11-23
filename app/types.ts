@@ -1,9 +1,7 @@
-// Fix: Use Firebase v9 compatibility import for User type.
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import { type Timestamp } from "firebase/firestore";
 
-// Re-exporting the FirebaseUser type for use in the app
 export type User = firebase.User;
 
 export interface TraceStep {
@@ -35,7 +33,7 @@ export interface Source {
 }
 
 export interface ChatSession {
-  id:string;
+  id: string;
   userId: string;
   title: string;
   createdAt: Timestamp;
@@ -53,13 +51,13 @@ export interface UserSettings {
 }
 
 export interface UserProfileData {
-    displayName: string;
-    profession?: string;
-    description?: string;
-    settings?: UserSettings;
+  displayName: string;
+  profession?: string;
+  description?: string;
+  settings?: UserSettings;
 }
 
 export interface UserProfile extends UserProfileData {
-    uid: string;
-    email: string | null;
+  uid: string;
+  email: string | null;
 }
